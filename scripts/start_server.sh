@@ -1,5 +1,5 @@
 echo "write start server scripts here";
 
-# Run python script
-# bash /home/ubuntu/flaskapp/scripts/run_flask.sh
-/home/ubuntu/flaskapp/scripts/supervisord
+# Run Flask Process with the help of supervisord command in run_flask.sh
+bash /home/ubuntu/flaskapp/scripts/run_flask.sh
+
