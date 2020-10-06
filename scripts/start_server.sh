@@ -1,3 +1,4 @@
 echo "write start server scripts here";
-echo $PWD
-bash run_flask.sh
+
+# Run python script
+bash /home/ubuntu/flaskapp/scripts/run_flask.sh
