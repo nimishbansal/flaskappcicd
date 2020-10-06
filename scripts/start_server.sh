@@ -1,2 +1,2 @@
 echo "write start server scripts here";
-bash run_flask.sh
+bash ./run_flask.sh
