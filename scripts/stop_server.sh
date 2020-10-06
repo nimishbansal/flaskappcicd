@@ -1,4 +1,4 @@
 echo "Write stop server scripts here";
  
 # kill application running at port 8000
-kill -9 `sudo lsof -t -i:8000`
+sudo lsof -i:8000 -t | xargs -r sudo kill
